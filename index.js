@@ -4,6 +4,12 @@ var prefix = '+';
 client.on("ready", () => {
   console.log("I am ready!");
 });
+const clean = text => {
+  if (typeof(text) === "string")
+    return text.replace(/`/g, "`" + String.fromCharCode(8203)).replace(/@/g, "@" + String.fromCharCode(8203));
+  else
+      return text;
+}
 client.on("message", message => {
   const args = message.content.split(" ").slice(1);
  
