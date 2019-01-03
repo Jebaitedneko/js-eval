@@ -1,0 +1,14 @@
+{
+  "name": "js-eval-bot",
+  "version": "1.0.0",
+  "description": "eval",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord": "^0.8.2"
+  }
+}
