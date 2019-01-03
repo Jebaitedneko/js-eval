@@ -15,6 +15,6 @@
     "sodium": "^3.0.0",
     "libsodium-wrappers": "^0.7.3",
     "bufferutil": "^4.0.1",
-    "hammerandchisel/erlpack": "latest"
+    "erlpack": "latest"
   }
 }
