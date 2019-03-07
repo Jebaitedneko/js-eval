@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^11.4.2",
+    "nodesu":"latest",
     "uws": "^99.0.0",
     "sodium": "^3.0.0",
     "libsodium-wrappers": "^0.7.3",
